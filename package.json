@@ -1,0 +1,25 @@
+{
+  "name": "newsCorpCodingChallenge",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "@google/maps": "^0.3.1",
+    "body-parser": "~1.15.1",
+    "chai": "^3.5.0",
+    "cookie-parser": "~1.4.3",
+    "datejs": "^1.0.0-rc3",
+    "debug": "~2.2.0",
+    "ejs": "~2.4.1",
+    "express": "~4.13.4",
+    "lodash": "^4.17.4",
+    "mocha": "^3.2.0",
+    "morgan": "~1.7.0",
+    "request": "^2.79.0",
+    "serve-favicon": "~2.3.0",
+    "supertest": "^3.0.0"
+  }
+}

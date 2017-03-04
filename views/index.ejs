@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>News Corp Coding Challenge</h1>
+    <p>Welcome to the News Corp weather forecast app. To use this
+    app, just hit the url <a href="http://localhost:3000/weather/{location}/{weekday}">http://localhost:3000/weather/{location}/{weekday}</a> 
+    Where:
+    <br/>
+    location is the location where you want the weather
+    forecast to be displayed.
+    <br/>
+    weekday is the day of the week for which the weather should be displayed. The valid weekdays are monday through sunday (case insensitive)
+    <br/><br/>
+    If an invalid weekday or location is provided, then you will get
+    an error
+    </p>
+    <p>
+    	If you want the weather forecast for today for a particular location, then hit the url : <br/>
+    	<a href="http://localhost:3000/weather/{location}/today">http://localhost:3000/weather/{location}/today</a> 
+    </p>
+  </body>
+</html>
